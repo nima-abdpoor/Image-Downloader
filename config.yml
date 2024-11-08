@@ -1,0 +1,25 @@
+---
+type: yml
+
+pixel:
+  apiKey:
+  min: 80
+  file:
+    prefix: PIXEL_
+    type: .png
+    path: C:\Users\Nima\GolandProjects\GoogleImageDownloader\raw\
+
+image_searcher:
+  time_out: 1m
+
+scheduler:
+  interval: 60
+  retry_time_out: 1m
+
+postgresql:
+  driver: postgres
+  user:
+  port: 5432
+  host: localhost
+  name: GID
+  password:
