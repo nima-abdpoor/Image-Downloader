@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS image_result;
+
+DROP TABLE IF EXISTS query;
